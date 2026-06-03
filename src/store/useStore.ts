@@ -77,7 +77,7 @@ export const useStore = create<AppState>()(
       setSidebarOpen: (open) => set({ sidebarOpen: open }),
     }),
     {
-      name: 'suidocs-storage',
+      name: 'scrivault-storage',
       partialize: (s) => ({ documents: s.documents, settings: s.settings }),
     }
   )

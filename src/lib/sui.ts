@@ -35,7 +35,7 @@ export interface MintDocumentNFTParams {
 
 /**
  * Construct a PTB (Programmable Transaction Block) that calls
- * suidocs::document_nft::mint_document on the deployed package.
+ * scrivault::document_nft::mint_document on the deployed package.
  */
 export function buildMintTransaction(params: MintDocumentNFTParams): Transaction {
   const tx = new Transaction()
@@ -56,7 +56,7 @@ export function buildMintTransaction(params: MintDocumentNFTParams): Transaction
 }
 
 /**
- * Construct a PTB that calls suidocs::document_nft::share_document.
+ * Construct a PTB that calls scrivault::document_nft::share_document.
  */
 export function buildShareTransaction(
   packageId: string,

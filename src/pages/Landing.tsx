@@ -64,7 +64,7 @@ export default function Landing() {
             <div className="w-8 h-8 rounded-xl bg-primary-600 flex items-center justify-center shadow-glow">
               <FileText className="w-4 h-4 text-white" />
             </div>
-            <span className="font-semibold text-slate-900 dark:text-white">SuiDocs</span>
+            <span className="font-semibold text-slate-900 dark:text-white">Scrivault</span>
           </div>
           <div className="flex items-center gap-2">
             <button onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')} className="p-2 rounded-xl text-slate-400 hover:text-slate-600 dark:hover:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors">
@@ -125,7 +125,7 @@ export default function Landing() {
       <section className="py-20 bg-slate-50 dark:bg-slate-900/50">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="text-center mb-14">
-            <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 dark:text-white mb-3">Three pillars of SuiDocs</h2>
+            <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 dark:text-white mb-3">Three pillars of Scrivault</h2>
             <p className="text-slate-500 dark:text-slate-400">Walrus storage + Sui ownership + AI intelligence — working together.</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -180,7 +180,7 @@ export default function Landing() {
       {/* Footer */}
       <footer className="py-8 border-t border-slate-100 dark:border-slate-800">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-400 dark:text-slate-600">
-          <p>SuiDocs — Built for the Tatum × Walrus Hackathon 2025</p>
+          <p>Scrivault — Built for the Tatum × Walrus Hackathon 2025</p>
           <div className="flex items-center gap-4">
             <a href="https://walrus.xyz" target="_blank" rel="noopener noreferrer" className="hover:text-slate-600 dark:hover:text-slate-400 transition-colors">Walrus</a>
             <a href="https://sui.io" target="_blank" rel="noopener noreferrer" className="hover:text-slate-600 dark:hover:text-slate-400 transition-colors">Sui</a>

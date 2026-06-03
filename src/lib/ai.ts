@@ -3,7 +3,7 @@ import { SuiDocument, ChatMessage } from '../types'
 const ANTHROPIC_API = 'https://api.anthropic.com/v1/messages'
 
 function buildSystemPrompt(doc: SuiDocument): string {
-  return `You are an intelligent document assistant for SuiDocs, a decentralised document platform built on Sui blockchain and Walrus storage.
+  return `You are an intelligent document assistant for Scrivault, a decentralised document platform built on Sui blockchain and Walrus storage.
 
 You are currently helping the user analyse and understand a document with these details:
 - Name: ${doc.name}

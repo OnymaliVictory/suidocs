@@ -1,8 +1,8 @@
-# SuiDocs — Decentralised Document Intelligence
+# Scrivault — Decentralised Document Intelligence
 
 > Built for the **Tatum × Build on Sui with Walrus** Hackathon (May–June 2025)
 
-SuiDocs is a **decentralised document vault** powered by Walrus storage and Sui blockchain. Upload any file, store it permanently on Walrus, prove ownership with a Sui NFT, and chat with an AI that can read your documents — all without any central server.
+Scrivault is a **decentralised document vault** powered by Walrus storage and Sui blockchain. Upload any file, store it permanently on Walrus, prove ownership with a Sui NFT, and chat with an AI that can read your documents — all without any central server.
 
 ---
 
@@ -113,7 +113,7 @@ sui client publish --gas-budget 100000000
 
 ## 🌊 Walrus Integration
 
-SuiDocs uses Walrus for **all document storage** — it is not an optional add-on.
+Scrivault uses Walrus for **all document storage** — it is not an optional add-on.
 
 | Action | Endpoint |
 |---|---|
@@ -152,7 +152,7 @@ The AI chat uses **Claude** via the Anthropic API:
 ## 🗂 Project Structure
 
 ```
-suidocs/
+scrivault/
 ├── src/
 │   ├── components/
 │   │   ├── layout/       # Header, Sidebar, MobileNav, Layout

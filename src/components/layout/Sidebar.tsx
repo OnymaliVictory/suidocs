@@ -41,7 +41,7 @@ export function Sidebar({ mobile, onClose }: SidebarProps) {
             </svg>
           </div>
           <div>
-            <p className="font-semibold text-slate-900 dark:text-slate-100 leading-none">SuiDocs</p>
+            <p className="font-semibold text-slate-900 dark:text-slate-100 leading-none">Scrivault</p>
             <p className="text-[10px] text-slate-400 dark:text-slate-600 leading-none mt-0.5">on Walrus + Sui</p>
           </div>
         </div>

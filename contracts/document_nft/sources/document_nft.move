@@ -1,7 +1,7 @@
-/// SuiDocs — Document NFT Contract
+/// Scrivault — Document NFT Contract
 /// Stores Walrus blob IDs on-chain as NFTs.
 /// Owner controls: mint, share access, revoke access, burn.
-module suidocs::document_nft {
+module scrivault::document_nft {
     use sui::object::{Self, UID};
     use sui::transfer;
     use sui::tx_context::{Self, TxContext};
